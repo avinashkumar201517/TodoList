@@ -1,0 +1,74 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.container{
+    border: 1px solid black;
+    width: 300px;
+    margin:50px auto;
+    border-radius: 5px;
+   
+ 
+}
+.connected{
+    text-decoration: line-through;
+    color: gray;
+}
+
+span{
+    margin: 10px;
+    
+}
+#list li{
+    padding:8px;
+    cursor: pointer;
+    margin:5px;
+    border: 2px solid black;
+    border-radius: 6px;
+    list-style: none;
+    box-shadow: 2px 2px 2px gray;
+}
+#inp{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 8px;
+   
+   
+    
+    
+}
+#inp:focus{
+    outline: none;
+}
+h1{
+   
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(184, 164, 151);
+    color: rgb(22, 20, 20);
+    padding:2px 5px;
+    display: block;
+    font-size: 30px;
+}
+ #plus i{
+    float: right;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+li:nth-of-type(2n+1){
+    background-color: rgb(178, 142, 223);
+}
+li:nth-of-type(2n+2){
+    background-color: rgb(43, 234, 151);
+}
+ 
+
+
+
